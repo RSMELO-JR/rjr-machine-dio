@@ -1,0 +1,13 @@
+﻿NOME,TIPO,LOCALIZAÇÃO,
+"Application Insights Smart Detection","Grupo de ações","Global"
+"rjr-hub-azure","Azure AI hub","East US"
+"rjr-hub-exp","Azure AI project","East US"
+"rjr-machine-dio","Azure Machine Learning workspace","East US"
+"rjrhubazure1254766316","Cofre de chaves","East US"
+"rjrhubazure9071310563","Azure AI services","East US"
+"rjrhubazure9215911515","Conta de armazenamento","East US"
+"rjrmachinedio0415978509","Workspace do Log Analytics","East US"
+"rjrmachinedio5136412373","Conta de armazenamento","East US"
+"rjrmachinedio7327017909","Application Insights","East US"
+"rjrmachinedio9178461115","Cofre de chaves","East US"
+"rsmel-m918xid8-eastus2","Azure AI services","East US 2"

@@ -1,0 +1,11 @@
+{
+    "id": "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos",
+    "name": "rjr-grp-recursos",
+    "type": "Microsoft.Resources/resourceGroups",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded"
+    },
+    "apiVersion": "2020-06-01"
+}

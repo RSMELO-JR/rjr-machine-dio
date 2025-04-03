@@ -1,0 +1,67 @@
+{
+    "id": "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.MachineLearningServices/workspaces/rjr-hub-azure",
+    "name": "rjr-hub-azure",
+    "type": "Microsoft.MachineLearningServices/workspaces",
+    "location": "eastus",
+    "tags": {},
+    "etag": null,
+    "properties": {
+        "friendlyName": "RJR-AI-HUB",
+        "description": "",
+        "storageAccount": "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.Storage/storageAccounts/rjrhubazure9215911515",
+        "keyVault": "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.KeyVault/vaults/rjrhubazure1254766316",
+        "applicationInsights": null,
+        "hbiWorkspace": false,
+        "tenantId": "d06e8e4d-c8c4-4c77-b1c6-b02b261a9e83",
+        "imageBuildCompute": null,
+        "provisioningState": "Succeeded",
+        "managedNetwork": {
+            "isolationMode": "Disabled",
+            "enableNetworkMonitor": false
+        },
+        "allowRoleAssignmentOnRG": true,
+        "v1LegacyMode": false,
+        "softDeleteEnabled": false,
+        "creationTime": "2025-04-03T10:58:06.0366103Z",
+        "notebookInfo": {
+            "resourceId": "8094a8c4a5224ec69b289a8fc9988d00",
+            "fqdn": "ml-rjr-hub-azure-eastus-cb1e5d76-471c-46ca-8f22-7b0940807579.eastus.notebooks.azure.net",
+            "isPrivateLinkEnabled": false,
+            "notebookPreparationError": null
+        },
+        "storageHnsEnabled": false,
+        "workspaceId": "cb1e5d76-471c-46ca-8f22-7b0940807579",
+        "linkedModelInventoryArmId": null,
+        "privateLinkCount": 0,
+        "publicNetworkAccess": "Enabled",
+        "discoveryUrl": "https://eastus.api.azureml.ms/discovery",
+        "mlFlowTrackingUri": "azureml://eastus.api.azureml.ms/mlflow/v1.0/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.MachineLearningServices/workspaces/rjr-hub-azure",
+        "sdkTelemetryAppInsightsKey": "f5784ccd-178d-4ecc-9998-b05841b44ae9",
+        "associatedWorkspaces": [
+            "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.MachineLearningServices/workspaces/rjr-hub-exp"
+        ],
+        "workspaceHubConfig": {
+            "defaultWorkspaceResourceGroup": "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos"
+        },
+        "enableDataIsolation": true
+    },
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "479480d4-6cea-4028-85c9-9666147b5581",
+        "tenantId": "d06e8e4d-c8c4-4c77-b1c6-b02b261a9e83"
+    },
+    "kind": "Hub",
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic"
+    },
+    "systemData": {
+        "createdAt": "2025-04-03T10:58:06.0366103Z",
+        "createdBy": "rsmelojr@yahoo.com",
+        "createdByType": "User",
+        "lastModifiedAt": "2025-04-03T10:58:06.0366103Z",
+        "lastModifiedBy": "rsmelojr@yahoo.com",
+        "lastModifiedByType": "User"
+    },
+    "apiVersion": "2023-04-01"
+}

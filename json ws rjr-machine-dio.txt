@@ -1,0 +1,61 @@
+{
+    "id": "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.MachineLearningServices/workspaces/rjr-machine-dio",
+    "name": "rjr-machine-dio",
+    "type": "Microsoft.MachineLearningServices/workspaces",
+    "location": "eastus",
+    "tags": {},
+    "etag": null,
+    "properties": {
+        "friendlyName": "rjr-machine-dio",
+        "description": "",
+        "storageAccount": "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.Storage/storageAccounts/rjrmachinedio5136412373",
+        "keyVault": "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.Keyvault/vaults/rjrmachinedio9178461115",
+        "applicationInsights": "/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.insights/components/rjrmachinedio7327017909",
+        "hbiWorkspace": false,
+        "tenantId": "d06e8e4d-c8c4-4c77-b1c6-b02b261a9e83",
+        "imageBuildCompute": null,
+        "provisioningState": "Succeeded",
+        "managedNetwork": {
+            "isolationMode": "Disabled",
+            "enableNetworkMonitor": false
+        },
+        "allowRoleAssignmentOnRG": true,
+        "v1LegacyMode": false,
+        "softDeleteEnabled": false,
+        "creationTime": "2025-04-02T09:28:45.2324897Z",
+        "notebookInfo": {
+            "resourceId": "1707e5aea103494aa58ca8a043674d43",
+            "fqdn": "ml-rjr-machine-dio-eastus-ff35d372-ccbe-40f8-8fdc-a5443fe58fc7.eastus.notebooks.azure.net",
+            "isPrivateLinkEnabled": false,
+            "notebookPreparationError": null
+        },
+        "storageHnsEnabled": false,
+        "workspaceId": "ff35d372-ccbe-40f8-8fdc-a5443fe58fc7",
+        "linkedModelInventoryArmId": null,
+        "privateLinkCount": 0,
+        "publicNetworkAccess": "Enabled",
+        "discoveryUrl": "https://eastus.api.azureml.ms/discovery",
+        "mlFlowTrackingUri": "azureml://eastus.api.azureml.ms/mlflow/v1.0/subscriptions/3c2fdec5-9f77-482b-9048-b44898f1c9d8/resourceGroups/rjr-grp-recursos/providers/Microsoft.MachineLearningServices/workspaces/rjr-machine-dio",
+        "sdkTelemetryAppInsightsKey": "f5784ccd-178d-4ecc-9998-b05841b44ae9",
+        "enableDataIsolation": false
+    },
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "e1b6c726-522b-4d72-a34f-0bec68efdf11",
+        "tenantId": "d06e8e4d-c8c4-4c77-b1c6-b02b261a9e83"
+    },
+    "kind": "Default",
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic"
+    },
+    "systemData": {
+        "createdAt": "2025-04-02T09:28:45.2324897Z",
+        "createdBy": "rsmelojr@yahoo.com",
+        "createdByType": "User",
+        "lastModifiedAt": "2025-04-03T14:18:08.4543663Z",
+        "lastModifiedBy": "rsmelojr@yahoo.com",
+        "lastModifiedByType": "User"
+    },
+    "apiVersion": "2023-04-01"
+}
